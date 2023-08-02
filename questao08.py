@@ -7,7 +7,7 @@ valor do consumo médio do automóvel, em quilômetros por litro
 dist = float(input("Distância a percorrer na viagem (km): "))
 consumo = float(input("Consumo médio do automóvel (km por l): "))
 
-print(f"Litros que o automóvel gastará na viagem: {dist / consumo }l")
+print(f"Você gastará {dist / consumo }l nessa viagem!")
 
 print("        _______      ")
 print("       //  ||\ \     ")
