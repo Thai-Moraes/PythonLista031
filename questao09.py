@@ -1,5 +1,4 @@
 import math
-
 '''
 Fazer um algoritmo que pergunte 1 número e apresente:
 a) O próprio número
