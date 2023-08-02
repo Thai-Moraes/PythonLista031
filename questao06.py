@@ -8,4 +8,4 @@ fahrenheit = float(input("Informe temperatura em graus Fahrenheit: "))
 
 celsius = (fahrenheit - 32) * 5 / 9
 
-print("Temperatura em Celsius:", celsius)
+print(f'{fahrenheit}°F convertido para Celsius é igual a {celsius}°C')

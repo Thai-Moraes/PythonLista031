@@ -9,4 +9,4 @@ c) A raiz quadrada deste número
 
 num = float(input("Informe um número: "))
 
-print(f'\nO próprio número: {num}\nO quadrado deste número: {math.pow(num, 2)}\nA raiz quadrada deste número: {math.sqrt(num)}')
+print(f'\nO próprio número é: {num}\nO quadrado deste número é: {math.pow(num, 2)}\nA raiz quadrada deste número é: {math.sqrt(num)}')

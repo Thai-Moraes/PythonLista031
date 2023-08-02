@@ -6,4 +6,4 @@ deve apresentar os dados anteriormente informados.
 name = input("Qual o seu nome?: ")
 sexo = input("Qual o seu sexo? (F/M): ")
 
-print(f'\nSeu nome é {name}\nO seu sexo é {sexo}')
+print(f'\nO seu nome é {name}\nO seu sexo é {sexo}')

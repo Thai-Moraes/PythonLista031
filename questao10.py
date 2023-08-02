@@ -3,8 +3,8 @@ Fazer um algoritmo que efetue o cálculo do valor de uma prestação em atraso, 
 valor	+	(valor	x	(taxa	:	100)	x	tempo	em	dias)
 '''
 
-valor = float(input("Qual o valor da prestação?: "))
-taxa = float(input("Qual a taxa da prestação?: "))
-tempo = float(input("Qual o tempo, em dias, da prestação?: "))
+valor = float(input("Qual o valor original?: "))
+taxa = float(input("Qual é a taxa?: "))
+tempo = float(input("Qual o tempo em dias?: "))
 
-print(f'\nValor da prestação em atrasos: R${valor + (valor * (taxa / 100) * tempo)}')
+print(f'\nValor da prestação em atraso: R${valor + (valor * (taxa / 100) * tempo)}')
